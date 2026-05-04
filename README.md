@@ -10,6 +10,9 @@ Native Android batch converter derived from the design goals of `FastPNGTOWEBP.P
 
 ## To get the best results, use WebP at 95% quality to shrink your large PNG photo folders into high-quality, space-saving files.
 
+<img width="390/2" height="888/2" alt="image" src="https://github.com/user-attachments/assets/01d33231-b58d-4a35-9cc9-3306bbfa578b" />
+
+
 ## What changed
 
 - Fast mode now uses direct `File` access instead of forcing the entire job through provider URIs.
