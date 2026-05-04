@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastPNGTOWEBP Android</string>
+    <string name="title_text">FastPNGTOWEBP Android</string>
+    <string name="subtitle_text">Fast raw-file mode for huge image folders, SAF fallback for user-picked trees, header-only format sniffing, and bounded worker concurrency.</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="pick_folder">Pick Folder</string>
+    <string name="fast_mode_header">Fast Folder Mode</string>
+    <string name="fast_mode_note">Use a direct path such as /storage/emulated/0/DCIM to bypass the slow tree picker for very large folders. This is the high-throughput path for overnight jobs.</string>
+    <string name="fast_path_hint">/storage/emulated/0/DCIM</string>
+    <string name="grant_fast_access">Grant Fast Access</string>
+    <string name="use_fast_path">Use Fast Path</string>
+    <string name="set_dcim">Set DCIM</string>
+    <string name="set_whatsapp">Set WhatsApp</string>
+    <string name="fast_access_granted">Fast mode is ready. Direct file-path scanning and sibling writes are enabled.</string>
+    <string name="fast_access_missing">Fast mode needs All Files Access on Android 11+ so it can bypass the slow system tree picker for huge jobs.</string>
+    <string name="fast_access_legacy_granted">Fast mode is ready with legacy storage permission.</string>
+    <string name="fast_access_legacy_missing">Fast mode needs storage permission on Android 10 and lower.</string>
+    <string name="fast_access_required_status">Grant fast storage access before starting a direct-path folder job.</string>
+    <string name="fast_path_empty">Enter a folder path first.</string>
+    <string name="fast_path_missing">Fast path does not exist: %1$s</string>
+    <string name="fast_path_not_folder">Fast path is not a folder: %1$s</string>
+    <string name="pick_selection_first">Pick an image, a SAF folder, or a fast folder path first.</string>
+    <string name="no_selection">No image or folder selected yet.</string>
+    <string name="webp_label">WebP (recommended for photos)</string>
+    <string name="jpeg_label">JPEG (legacy compatibility)</string>
+    <string name="quality_header">Quality</string>
+    <string name="quality_default">85</string>
+    <string name="delete_originals">Delete originals after a verified smaller output is written</string>
+    <string name="policy_note">This build uses O(1)-extra-memory streaming scans, not O(1) total-time scans. Fast mode uses raw file paths; SAF mode stays available for provider-backed trees.</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+    <string name="status_ready">Ready.</string>
+    <string name="progress_ready">Progress will appear here once a job starts.</string>
+    <string name="stats_ready">No active job.</string>
+    <string name="log_header">Recent Log</string>
+    <string name="log_ready">No work has started yet.</string>
+    <string name="notification_channel_name">Image conversion</string>
+    <string name="notification_title">FastPNGTOWEBP is running</string>
+</resources>
